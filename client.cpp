@@ -1,6 +1,6 @@
-// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// This program is a client side in a server-client prokect.
-// There is a list of request that are possible to do in order to transfer files safely.
+// client.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// This program is a client-side in a server-client project.
+// There is a list of requests that are possible to do to transfer files safely.
 
 #include "main.h"
 
