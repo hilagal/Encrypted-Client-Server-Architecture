@@ -32,9 +32,21 @@ The project consists of the following main components:
 4. **files.db:** 
    - This is the SQLite database file that stores uuid and files information.
    
-4. **requirements.txt:** 
-   - A file listing the required dependencies to run the project (e.g., `pycryptodome`, `sqlite3`).
+5. **requirements.txt:** 
+   - A file listing the required dependencies to run the project.
 
+6. **me.info:**
+   - 1st line: user name
+   - 2nd line: unique identifier in ASCII where every 2 chars represent an 8-bit hex value.
+   - 3rd line: a private key generated on the first run of the program in base 64.
+  
+7. **transfer.info:**
+   - 1st line: IP:port_number
+   - 2nd line: user name
+   - 3rd line: path file to send to server
+  
+8. **port.info:**
+   - 1st line: port number
 ---
 
 ## How it Works
