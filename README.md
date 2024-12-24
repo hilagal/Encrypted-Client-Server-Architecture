@@ -122,5 +122,4 @@ To run this project, you'll need to install the required Python libraries:
 - C++ libraries:
     - Boost library
     - Crypto++ library
-- `pip` for installing dependencies
 
