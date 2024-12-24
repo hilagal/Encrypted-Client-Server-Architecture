@@ -124,10 +124,3 @@ To run this project, you'll need to install the required Python libraries:
     - Crypto++ library
 - `pip` for installing dependencies
 
-### Steps to Set Up
-
-1. Clone the repository or download the project files.
-
-2. Install the required dependencies:
-   pip install -r requirements.txt
-
