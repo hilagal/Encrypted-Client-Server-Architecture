@@ -26,8 +26,11 @@ The project consists of the following main components:
    - The server listens for incoming requests, processes them, and stores the data in a local SQLite database.
    - The server also handles key management, decrypting files, and managing user data.
 
-3. **users.db:** 
-   - This is the SQLite database file that stores user information, RSA public/private keys, and encrypted files.
+3. **clients.db:** 
+   - This is the SQLite database file that stores user information, RSA public/private keys.
+
+4. **files.db:** 
+   - This is the SQLite database file that stores uuid and files information.
    
 4. **requirements.txt:** 
    - A file listing the required dependencies to run the project (e.g., `pycryptodome`, `sqlite3`).
