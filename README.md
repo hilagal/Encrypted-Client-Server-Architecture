@@ -1,4 +1,3 @@
-# project
 # Encrypted Client-Server Architecture
 
 ## Overview
