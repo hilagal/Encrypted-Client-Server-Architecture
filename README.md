@@ -4,7 +4,7 @@
 
 This project implements a **client-server** application with **encryption** for secure client and server communication. The project's main goal is to securely transfer files and sensitive information between the client and the server using **RSA** for public-key encryption and **AES** for symmetric encryption.
 
-The client registers with the server, encrypts files with AES, and uploads them securely. The server handles storing user data, keys, and encrypted files in a **SQLite** database.
+The client registers with the server, encrypts files with AES, and uploads them securely. The server handles storing user data, keys, and encrypted files in **SQLite** databases.
 
 ### **Key Features:**
 - **Secure Registration:** The client and server use RSA encryption to exchange keys and register users securely.
